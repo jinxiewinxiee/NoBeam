@@ -4,7 +4,9 @@
   "version": "${version}",
   "name": "No Beam",
   "description": "Removes the End Gateway's beam",
-  "authors": [],
+  "authors": [
+    "jinxiewinxiee"
+  ],
   "contact": {},
   "license": "All-Rights-Reserved",
   "icon": "assets/no_beam/icon.png",
