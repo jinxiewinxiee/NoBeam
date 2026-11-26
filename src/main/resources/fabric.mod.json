@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "no_beam",
+  "version": "${version}",
+  "name": "No Beam",
+  "description": "Removes the End Gateway's beam",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/no_beam/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.sylvies.no_beam.client.NoBeamClient"
+    ],
+    "main": [
+      "dev.sylvies.no_beam.NoBeam"
+    ]
+  },
+  "mixins": [
+    "no_beam.mixins.json",
+    {
+      "config": "no_beam.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": ">=${minecraft_version}"
+  }
+}
