@@ -9,14 +9,7 @@
   "license": "All-Rights-Reserved",
   "icon": "assets/no_beam/icon.png",
   "environment": "client",
-  "entrypoints": {
-    "client": [
-      "dev.sylvies.no_beam.client.NoBeamClient"
-    ],
-    "main": [
-      "dev.sylvies.no_beam.NoBeam"
-    ]
-  },
+  "entrypoints": {},
   "mixins": [
     "no_beam.mixins.json",
     {
