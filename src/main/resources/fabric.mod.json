@@ -7,7 +7,9 @@
   "authors": [
     "jinxiewinxiee"
   ],
-  "contact": {},
+  "contact": {
+    "sources": "https://github.com/jinxiewinxiee/NoBeam"
+  },
   "license": "All-Rights-Reserved",
   "icon": "assets/no_beam/icon.png",
   "environment": "client",
